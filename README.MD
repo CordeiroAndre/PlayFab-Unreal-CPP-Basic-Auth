@@ -39,3 +39,6 @@ When the authentication process is successful, I am also making a request to upd
 
 ## The Session Data Class 
 The session data class is a class made to persist relevant data of a session. The class need to have a lifecycle that follows the Game Instance, so I used a **GameInstanceSubsystem** .
+
+## Testing 
+In order to test the, you can call the method "**SignIn**" in any blueprint or `AuthenticationService::SignIn("username");` in any C++ class.
